@@ -7,10 +7,10 @@ class Cell {
         this.characteristic = 5 - Math.floor(Math.random()*10);
         
         this.birth = this.environment.time;
-        this.metabolicAge = 1;//0
+        this.metabolicAge = 0;//0
         this.metabolicRate = 3;//1
-        this.liquid = ['○'];//w
-        this.solid = [●];//[]
+        this.liquid = ['w'];//w
+        this.solid = [];//[]
         this.energy = '|||||';
         this.size = 1;
         this.maxCap = 4;
